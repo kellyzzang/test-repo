@@ -1,0 +1,14 @@
+{
+  "name": "Test Repo",
+  "slug": "test-repo",
+  "icon": "🚀",
+  "description": "테스트용 Next.js 서비스",
+  "author": "kellyzzang",
+  "version": "0.1.0",
+  "app": {
+    "dir": "dashboard",
+    "install": "pnpm install --frozen-lockfile",
+    "build": "pnpm build",
+    "start": "node .next/standalone/server.js"
+  }
+}
